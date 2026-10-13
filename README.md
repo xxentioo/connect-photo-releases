@@ -4,19 +4,25 @@ Windows용 네이티브 이미지 편집기입니다. Material Design 3 Dark, �
 
 ## 다운로드
 
-[릴리스 안내](https://github.com/xxentioo/connect-photo-releases/releases/tag/v0.7.0-connect.1)
+[릴리스 안내](https://github.com/xxentioo/connect-photo-releases/releases/tag/v0.7.0-connect.2)
 
-- [Windows x64 MSI 설치본](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.1/connect-photo-0.7.0-connect.1-windows-x64.msi)
-- [Windows x64 포터블 ZIP](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.1/connect-photo-0.7.0-connect.1-windows-x64-portable.zip)
-- [SHA-256 목록](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.1/connect-photo-0.7.0-connect.1-windows-x64-sha256.txt)
+- [Windows x64 MSI 설치본](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.2/connect-photo-0.7.0-connect.2-windows-x64.msi)
+- [Windows x64 포터블 ZIP](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.2/connect-photo-0.7.0-connect.2-windows-x64-portable.zip)
+- [SHA-256 목록](https://github.com/xxentioo/connect-photo-releases/releases/download/v0.7.0-connect.2/connect-photo-0.7.0-connect.2-windows-x64-sha256.txt)
 
-첫 배포는 **0.7.0-connect.1 early alpha**입니다. Windows x64용입니다.
+현재 공개 버전은 **0.7.0-connect.2 early alpha**입니다. Windows x64용입니다.
 
 - **MSI**: 설치 후 시작 메뉴의 Connect Photo를 실행합니다.
 - **Portable ZIP**: 폴더 전체를 압축 해제한 다음 `connect-photo.exe`를 실행합니다. 설정과 복구 데이터는 실행 파일 옆 `ConnectPhotoData`에 저장됩니다.
 - **SHA-256**: 함께 제공되는 `sha256.txt`로 다운로드 파일의 해시를 확인할 수 있습니다.
 
 이 설치본은 전자서명되지 않았습니다. 그래픽 드라이버로 시작이 어려우면 `connect-photo.exe --safe-gpu`를 사용할 수 있습니다.
+
+## 이번 업데이트
+
+Codex 모델 선택, GPT Image 2 이미지 생성, 생성 결과를 편집 가능한 레이어로 추가하는 기능을 제공합니다. 기본 화면에는 오른쪽 에이전트·레이어 패널과 두 별 에이전트 버튼이 표시됩니다. Cp 로고를 적용하고 정보 창·시작 화면·도움말의 불필요한 설명과 GitHub 연결을 정리했습니다.
+
+레이어 PSD는 배경·인물·소품을 요소별로 생성해 구성하는 방식입니다. 완성된 한 장의 이미지를 자동으로 의미별 레이어로 분해하는 기능은 포함되지 않습니다.
 
 ## Agent 패널
 
